@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>loading...</title>
+
+    <link rel="stylesheet" href="../style/loading.css" />
+    <script src="../js/loading.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="../media/Robo-7.ico">
+</head>
+<body>
+    <div class="fake">
+        <div class=fakeMenu>
+            <div class="fakeButtons fakeClose"></div>
+            <div class="fakeButtons fakeMinimize"></div>
+            <div class="fakeButtons fakeZoom"></div>
+        </div>
+        <div class="fakeScreen">
+            <p class="line1">Hello World.<span class="cursor1">_</span></p>
+            <p class="line2">Running Security Checks.<span class="cursor2">_</span></p>
+            <p class="line3">Loading...<span class="cursor3">_</span></p>
+            <p class="line4">><span class="cursor4">_</span></p>
+            <script>
+                setTimeout(function () {
+                    window.location.replace("menu.html");
+                }, 10000);
+            </script>
+        </div>
+    </div>
+</body>
+</html>

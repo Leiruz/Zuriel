@@ -543,6 +543,8 @@ h3 {
     overflow: hidden;
 }
 
+
+
 #prev,
 #next {
     cursor: pointer;
@@ -761,13 +763,13 @@ span {
     border-radius: 10px;
     padding: 10px;
     margin-left: auto;
-    background-color: #5f180e;
-    color: #fff;
+    background-color: #8cc8c6;
+    color:black;
 }
 
     .blog-post_button:focus,
     .blog-post_button:hover {
-        background-color: #8b2315;
+        background-color: #c6dbd2;
         -webkit-box-shadow: 3px 3px 3px #5f180e;
         box-shadow: 3px 3px 3px #5f180e;
     }

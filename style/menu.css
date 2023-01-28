@@ -498,6 +498,29 @@ h3 {
     max-width: 100%;
 }
 
+#cinderellashoe {
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 10px;
+    border: 10px solid #f8f2dc;
+    padding: 0;
+    border-radius: 10px;
+    position: relative;
+    background-color: #f8f2dc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    max-width: 800px;
+    -webkit-box-shadow: 0 2px 2px rgb(87, 124, 123);
+    box-shadow: 0 2px 2px rgb(87, 124, 123);
+    overflow: hidden;
+    text-align:center;
+}
+
 #slideshow {
     -ms-flex-item-align: center;
     align-self: center;
@@ -744,6 +767,27 @@ span {
 
     .blog-post_button:focus,
     .blog-post_button:hover {
+        background-color: #8b2315;
+        -webkit-box-shadow: 3px 3px 3px #5f180e;
+        box-shadow: 3px 3px 3px #5f180e;
+    }
+
+.resume_button {
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #5f180e;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20%;
+    display:inline-block;
+}
+
+    .resume_button:focus,
+    .resume_button:hover {
         background-color: #8b2315;
         -webkit-box-shadow: 3px 3px 3px #5f180e;
         box-shadow: 3px 3px 3px #5f180e;

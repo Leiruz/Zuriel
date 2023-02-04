@@ -39,7 +39,9 @@
         opacity: 0.5;
         font-weight: 200;
     }
-
+.toolbar{
+    position:absolute;
+}
 .terminal {
     background: #191919;
     width: 600px;

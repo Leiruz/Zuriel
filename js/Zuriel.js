@@ -25,6 +25,26 @@ document.addEventListener('keydown', function (e) {
         } else if (input.value == "projects" || input.value == 'Projects' || input.value == 'Project' || input.value == 'project' || input.value == 'proj') {
             location.replace("projects.html");
 
+        } else if (input.value == "experience" || input.value == 'Experience' || input.value == 'exp' || input.value == 'working experience' || input.value == '') {
+            const para = document.createElement("p");
+            para.style.display = 'block';
+            para.style.marginTop = '8px';
+
+            const educationHistory = ["Work Experience", '1. NCS PTE LTD (August 2021 - February 2022)',
+                'CYBERSECURITY CONSULTANT INTERN', 'In my 6 month internship at NCS, I was involved in deploying an Advance Security Operations Center (ASOC) for our client. I was attach to the Endpoint Detection & Response team whereby, I was subject matter expert for VMware Carbon Black and CyberArk products.'];
+
+            educationHistory.forEach(history => {
+                const line = document.createElement("p");
+                line.style.display = 'block';
+                line.textContent = history;
+                para.appendChild(line);
+
+            });
+
+            document.querySelector(".commands").appendChild(para);
+
+        } else if (input.value == "skills" || input.value == 'Skill' || input.value == 'Skills' || input.value == 'skill' || input.value == 'skillset' || input.value == 'skillsets' || input.value == 'Skillset' ) {
+            location.replace("skillset.html");
 
         } else if (input.value == "clear" || input.value == 'Clear') {
             location.reload();
@@ -38,6 +58,24 @@ document.addEventListener('keydown', function (e) {
                 '2. Shuqun Secondary School (2015-2018)',
                 '3. Ngee Ann Polytechnic - Diploma In Cybersecurity & Digital Forensics (2019-2022)',
                 '4. National University of Singapore - Bachelor In Information Security (2024-2028)'];
+
+            educationHistory.forEach(history => {
+                const line = document.createElement("p");
+                line.style.display = 'block';
+                line.textContent = history;
+                para.appendChild(line);
+
+            });
+
+            document.querySelector(".commands").appendChild(para);
+
+        } else if (input.value == "contact" || input.value == "Contacts" || input.value == "Contact" || input.value == "contacts") {
+            const para = document.createElement("p");
+            para.style.display = 'block';
+            para.style.marginTop = '8px';
+
+            const educationHistory = ["How to contact me?", 'Email me: Zuriel.shanley@gmail.com',
+                'Call me: +65 9271 3276'];
 
             educationHistory.forEach(history => {
                 const line = document.createElement("p");

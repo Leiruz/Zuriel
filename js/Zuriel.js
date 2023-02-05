@@ -10,7 +10,7 @@ document.addEventListener('keydown', function (e) {
             const para = document.createElement("p");
             para.style.display = 'block';
             para.style.marginTop = '8px';
-            const text = document.createTextNode('\nSupported commands: about, experience, education, projects, skills, contact, Clear\n');
+            const text = document.createTextNode('\nSupported commands: about, experience, education, projects, skills, contact, resume, awards, Clear\n');
             para.appendChild(text);
             document.querySelector(".commands").appendChild(para);
         }
@@ -24,6 +24,12 @@ document.addEventListener('keydown', function (e) {
 
         } else if (input.value == "projects" || input.value == 'Projects' || input.value == 'Project' || input.value == 'project' || input.value == 'proj') {
             location.replace("projects.html");
+
+        } else if (input.value == "resume" || input.value == 'Resume' || input.value == 'cv' || input.value == 'CV' || input.value == 'Cv') {
+            location.replace("https://504089e6-6d14-4de0-8579-5fce8cba32be.filesusr.com/ugd/e0a86f_afe7c9e1bb41484697ae0301e6d6d16c.pdf");
+
+        } else if (input.value == "awards" || input.value == 'Awards' || input.value == 'achievement' || input.value == 'Achievement' || input.value == 'award' || input.value == 'awards' || input.value == 'achievements' || input.value == 'Achievements') {
+            location.replace("awards.html");
 
         } else if (input.value == "experience" || input.value == 'Experience' || input.value == 'exp' || input.value == 'working experience' || input.value == '') {
             const para = document.createElement("p");

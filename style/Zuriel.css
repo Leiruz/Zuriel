@@ -237,16 +237,18 @@ ul li:nth-child(4) a:before {
 @media (max-width: 768px) {
     html {
         background: #1f1f1f;
-        overflow-y:hidden;
         overflow-x:hidden;
+        overflow-y:hidden;
     }
     .container {
         display: flex;
         flex-direction: column;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .profile-card {
-        order: 1;
+        order: 2;
         margin-top: 5%;
         display: flex;
         flex-direction: column;
@@ -254,20 +256,20 @@ ul li:nth-child(4) a:before {
         align-items: center;
         height: 400px;
         background: #484a4e45;
-        width: 200px;
+        width: 270px;
         border-radius: 8px;
         color: #eee;
         text-align: center;
         margin-bottom:10%;
+
     }
-    .socials {
-        margin-right:90%;
-    }
+ 
+
 
     .terminal {
-        order: 2;
+        order: 1;
         background: #191919;
-        width: 370px;
+        width: 270px;
         height: 400px;
         border-radius: 8px;
         overflow-x: hidden;
@@ -275,8 +277,12 @@ ul li:nth-child(4) a:before {
         margin-right:2%;
         margin-bottom:10%;
     }
+    .buttons{
+        width:270px;
+    }
 
     .toolbar {
+        width:270px;
         position: sticky;
         top: 0;
         z-index: 1;

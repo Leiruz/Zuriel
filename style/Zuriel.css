@@ -262,7 +262,7 @@ ul li:nth-child(4) a:before {
     }
 
     .terminal {
-        order: 3;
+        order: 2;
         background: #191919;
         width: 370px;
         height: 400px;
@@ -274,10 +274,11 @@ ul li:nth-child(4) a:before {
     }
 
     .toolbar {
-        order: 2;
-        position: sticky;
-        top: 0;
-        z-index: 1;
+        display:none;
+    }
+    
+    .lol{
+        display:none;
     }
    
     .buttons{

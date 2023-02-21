@@ -63,7 +63,6 @@
     }
 
 
-
 p > span {
     color: #fa615c;
     font-weight: bold;
@@ -277,7 +276,12 @@ ul li:nth-child(4) a:before {
         margin-bottom:10%;
     }
 
-   
+    .toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    
     .buttons{
         max-width:370px;
     }

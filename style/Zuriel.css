@@ -275,7 +275,7 @@ ul li:nth-child(4) a:before {
     }
 
     .toolbar {
-        position: fixed;
+        position: static !important;
     }
    
     .buttons{

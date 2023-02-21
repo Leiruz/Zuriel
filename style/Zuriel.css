@@ -249,7 +249,6 @@ ul li:nth-child(4) a:before {
 
     .profile-card {
         order: 2;
-        margin-top: 5%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -261,9 +260,7 @@ ul li:nth-child(4) a:before {
         color: #eee;
         text-align: center;
         margin-bottom:10%;
-
     }
- 
 
 
     .terminal {
@@ -274,8 +271,9 @@ ul li:nth-child(4) a:before {
         border-radius: 8px;
         overflow-x: hidden;
         overflow-y: auto;
-        margin-right:2%;
-        margin-bottom:10%;
+        margin-right: 2%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
     .buttons{
         width:270px;

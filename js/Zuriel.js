@@ -29,7 +29,7 @@ document.addEventListener('keydown', function (e) {
             location.replace("certification.html");
 
         } else if (input.value == "resume" || input.value == 'Resume' || input.value == 'cv' || input.value == 'CV' || input.value == 'Cv') {
-            location.replace("https://504089e6-6d14-4de0-8579-5fce8cba32be.filesusr.com/ugd/e0a86f_afe7c9e1bb41484697ae0301e6d6d16c.pdf");
+            location.replace("https://e0a86f67-763c-4aa0-8b55-a4eb00df97fa.usrfiles.com/ugd/e0a86f_fb17f46a70b246d6b81a2c3149ce857d.pdf");
 
         } else if (input.value == "awards" || input.value == 'Awards' || input.value == 'achievement' || input.value == 'Achievement' || input.value == 'award' || input.value == 'awards' || input.value == 'achievements' || input.value == 'Achievements') {
             location.replace("awards.html");

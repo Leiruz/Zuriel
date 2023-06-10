@@ -28,7 +28,7 @@ document.addEventListener('keydown', function (e) {
             location.replace("certification.html");
 
         } else if (input.value == "resume" || input.value == 'Resume' || input.value == 'cv' || input.value == 'CV' || input.value == 'Cv') {
-            window.open('https://e0a86f67-763c-4aa0-8b55-a4eb00df97fa.usrfiles.com/ugd/e0a86f_fb17f46a70b246d6b81a2c3149ce857d.pdf', '_blank');
+            window.open('https://504089e6-6d14-4de0-8579-5fce8cba32be.filesusr.com/ugd/e0a86f_0a6e81baa28540d88a5ec96a889a02f8.pdf', '_blank');
 
         } else if (input.value == "awards" || input.value == 'Awards' || input.value == 'achievement' || input.value == 'Achievement' || input.value == 'award' || input.value == 'awards' || input.value == 'achievements' || input.value == 'Achievements') {
             location.replace("awards.html");

@@ -7,11 +7,13 @@
 
     <script src="../js/disableinspect.js"></script>
     <link rel="stylesheet" href="../style/loading.css" />
-    <script src="../js/loading.js" defer></script>
     <link rel="icon" type="image/x-icon" href="../media/Robo-7.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 <body>
-    <div class="fake">
+    <div class="fake animate__animated animate__zoomIn">
         <div class=fakeMenu>
             <div class="fakeButtons fakeClose"></div>
             <div class="fakeButtons fakeMinimize"></div>
@@ -24,6 +26,8 @@
             <p class="line4">><span class="cursor4">_</span></p>
             <script>
                 setTimeout(function () {
+                    const element = document.querySelector('.fake');
+                    element.classList.add('animate__animated', 'animate__zoomOut');
                     window.location.replace("./zuriel");
                 }, 10000);
             </script>

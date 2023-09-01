@@ -42,7 +42,7 @@
     }
 
 .socials{
-    margin-top:50px;
+    margin-top:40px;
 }
 .terminal {
     background: #191919;
@@ -219,15 +219,15 @@ ul li a:hover:before {
 }
 
 ul li:nth-child(1) a:before {
-    background: #3b5999;
+    background: #000000;
 }
 
 ul li:nth-child(2) a:before {
-    background: #55acee;
+    background: #0e76a8;
 }
 
 ul li:nth-child(3) a:before {
-    background: #0077b5;
+    background: #E1306C;
 }
 
 ul li:nth-child(4) a:before {

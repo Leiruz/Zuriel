@@ -5,7 +5,7 @@ const animateCSS = (element, animation, prefix = 'animate__') => {
     node.classList.add(`${prefix}animated`, animationName);
 
     node.addEventListener('animationend', () => {
-        location.replace("./zuriel")
+        location.replace("./index")
     });
 
 };

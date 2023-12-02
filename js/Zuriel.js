@@ -9,7 +9,7 @@ document.addEventListener('keydown', function (e) {
             const para = document.createElement("p");
             para.style.display = 'block';
             para.style.marginTop = '8px';
-            const text = document.createTextNode('\nSupported commands: about, experience, education, projects, skills, contact, resume, awards, certification, Clear\n');
+            const text = document.createTextNode('\nSupported commands: about, experience, education, projects, skills, contact, resume, awards, products, games, certifications, Clear\n');
             para.appendChild(text);
             document.querySelector(".commands").appendChild(para);
         }
@@ -23,6 +23,12 @@ document.addEventListener('keydown', function (e) {
 
         } else if (input.value == "projects" || input.value == 'Projects' || input.value == 'Project' || input.value == 'project' || input.value == 'proj') {
             location.replace("./projects");
+
+        } else if (input.value == "products" || input.value == 'Products' || input.value == 'Product' || input.value == 'product' || input.value == 'prod') {
+            window.open('https://citadel.zurielst.com', '_blank');
+
+        } else if (input.value == "games" || input.value == 'Games' || input.value == 'Game' || input.value == 'game' || input.value == 'towerblock') {
+            window.open('https://towerblock.zurielst.com', '_blank');
 
         } else if (input.value == "certification" || input.value == 'Certification' || input.value == 'certificate' || input.value == 'Certificate' || input.value == 'Certifications' || input.value == 'cert' || input.value == 'Cert' || input.value == 'Certificates' || input.value == 'certifications') {
             location.replace("./certifications");

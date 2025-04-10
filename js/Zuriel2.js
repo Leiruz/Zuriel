@@ -51,7 +51,7 @@ downloadButton.addEventListener('click', function () {
         xhr.responseType = 'blob'; // Set the response type to blob
 
         // Define the URL of the PDF file
-        var url = 'https://e0a86f67-763c-4aa0-8b55-a4eb00df97fa.usrfiles.com/ugd/e0a86f_754b3cff01d44b1f9c9165d2498c11e5.pdf';
+        var url = 'https://e0a86f67-763c-4aa0-8b55-a4eb00df97fa.usrfiles.com/ugd/e0a86f_d71caf95c68841b28d6e247377ce7b4a.pdf';
 
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {

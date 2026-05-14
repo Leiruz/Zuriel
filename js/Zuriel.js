@@ -34,7 +34,7 @@ document.addEventListener('keydown', function (e) {
             location.replace("./certifications");
 
         } else if (input.value == "resume" || input.value == 'Resume' || input.value == 'cv' || input.value == 'CV' || input.value == 'Cv') {
-            window.open('https://raw.githubusercontent.com/Leiruz/Zuriel/main/Zuriel%20Shanley%20Tanyory%20Resume.pdf', '_blank');
+            window.open('/Zuriel%20Shanley%20Tanyory%20Resume.pdf', '_blank');
 
         } else if (input.value == "awards" || input.value == 'Awards' || input.value == 'achievement' || input.value == 'Achievement' || input.value == 'award' || input.value == 'awards' || input.value == 'achievements' || input.value == 'Achievements') {
             location.replace("./awards");

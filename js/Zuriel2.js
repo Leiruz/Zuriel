@@ -51,7 +51,7 @@ downloadButton.addEventListener('click', function () {
         xhr.responseType = 'blob'; // Set the response type to blob
 
         // Define the URL of the PDF file
-        var url = 'https://e0a86f67-763c-4aa0-8b55-a4eb00df97fa.usrfiles.com/ugd/e0a86f_d71caf95c68841b28d6e247377ce7b4a.pdf';
+        var url = 'https://raw.githubusercontent.com/Leiruz/Zuriel/main/Zuriel%20Shanley%20Tanyory%20Resume.pdf';
 
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
